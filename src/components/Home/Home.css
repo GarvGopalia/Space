@@ -8,7 +8,7 @@
     display: flex;
     flex-direction: column;
     height: 100vh;
-    background-image: url("E:\College\practice\space-tourism-website-main\space-tourism-website-main\starter-code\assets\home\background-home-desktop.jpg");
+    background-image: url("../../assets/home/background-home-desktop.jpg");
     background-size: cover;
     background-position: center;
     position: relative;
