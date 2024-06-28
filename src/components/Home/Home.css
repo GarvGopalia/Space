@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.body-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-image: url("../../assets/home/background-home-desktop.jpg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    color: white;
+    font-family: 'Bellefair', serif;
+}
+
+.para {
+    position: absolute;
+    bottom: 10rem;
+    left: 5rem;
+    color: beige;
+    font-family: sans-serif;
+}
+
+.para p:nth-child(1) {
+    font-size: 1.8rem;
+}
+
+.para p:nth-child(2) {
+    font-size: 8rem;
+    font-family: "Bellefair", serif;
+    font-weight: 100;
+}
+
+.para p:nth-child(4) {
+    line-height: 1.5;
+    margin-top: 1rem;
+}
+
+.explore {
+    position: absolute;
+    bottom: 10rem;
+    right: 7rem;
+}
+
+.explore-1st {
+    width: 13rem;
+    height: 13rem;
+    border-radius: 50%;
+    border: none;
+    color: black;
+    background-color: white;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-family: "Bellefair", serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.explore-1st:hover {
+    outline: 2rem solid rgba(255, 255, 255, 0.1);
+    transition: outline 0.3s ease-in-out;
+}
+
+.explore-1st .link {
+    text-decoration: none;
+    color: inherit;
+}

@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.body-tech {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+    background-image: url("../../assets/technology/background-technology-desktop.jpg");
+    background-size: cover;
+    color: beige;
+    font-family: 'Bellefair', serif;
+}
