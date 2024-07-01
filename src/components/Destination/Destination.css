@@ -106,3 +106,101 @@
     font-family: "Bellefair", serif;
     font-weight: 50;
 }
+
+@media (max-width: 768px) {
+    .body-dest {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        height: 100vh;
+        background-image: url("../../assets/destination/background-destination-tablet.jpg");
+        background-size: cover;
+        color: beige;
+        font-family: 'Bellefair', serif;
+    }
+
+    .header {
+        display: flex;
+        justify-content: flex-start;
+        width: 100%;
+        padding-top: 8rem;
+        padding-left: 1rem;
+    }
+
+    .body-h2 {
+        font-weight: 200;
+        font-size: 1.2rem;
+        margin-bottom: 2rem;
+        
+    }
+
+    .content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        width: 100%;
+    }
+
+    .dest-img img {
+        height: 15rem;
+    }
+
+    .dest-img {
+        padding-bottom: 2rem;
+    }
+
+    .info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 63vw;
+    }
+
+    .dest-btns {
+        display: flex;
+        gap: 0.5rem;
+        margin-bottom: 1rem;
+    }
+
+    .dest-btns button {
+        background: none;
+        border: none;
+        color: white;
+        font-family: "Bellefair", serif;
+        font-size: 14px;
+        cursor: pointer;
+        padding: 5px 10px;
+        opacity: 0.8;
+        transition: text-decoration 0.3s ease-in, transform 0.3s ease-in;
+    }
+
+    .heading {
+        font-size: 5rem;
+        margin-bottom: 1rem;
+    }
+
+    .dest-desc {
+        font-size: 1rem;
+        margin-bottom: 1rem;
+        opacity: 0.8;
+        text-align: center;
+        width:  100%;
+    }
+
+    .dest-desc hr {
+        height: 1rem;
+        width: 100%;
+    }
+
+    .dest-dist p, .dest-time p {
+        font-size: 0.8rem;
+    }
+
+    .dest-dist h5, .dest-time h5 {
+        font-size: 1.3rem;
+        text-transform: uppercase;
+    }
+}
