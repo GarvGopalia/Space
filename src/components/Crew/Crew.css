@@ -104,6 +104,7 @@
     margin-right: 1rem;
     opacity: 0.3;
     cursor: pointer;
+    border: none;
 }
 
 .crew-btn:hover {
@@ -119,4 +120,61 @@
 
 .crew-img {
     width: 50%;
+}
+
+@media (max-width: 768px) {
+    .body-crew {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        height: 100vh;
+        background-image: url("../../assets/crew/background-crew-tablet.jpg");
+        background-size: cover;
+        color: beige;
+        font-family: 'Bellefair', serif;
+    }
+
+    .crew-head {
+        font-size: 1.2rem;
+        padding-top: 0.5rem;
+        padding-left: 1rem;
+    }
+
+    .crew-content-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .crew-title {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    .crew-name {
+        text-align: center;
+        font-size: 2.5rem;
+    }
+
+    .crew-description {
+        font-size: 1rem;
+        padding-right: 2rem;
+        text-align: center;
+    }
+
+    .crew-button {
+        padding: 0%;
+    }
+
+    .crew-img {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .crew-img img {
+        height: 40vh;
+        margin-top: 2rem;
+    }
 }
