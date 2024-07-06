@@ -1,0 +1,206 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+
+
+.body-dest {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+    background-image: url("../../assets/destination/background-destination-desktop.jpg");
+    background-size: cover;
+    color: beige;
+    font-family: 'Bellefair', serif;
+}
+.header {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    padding-left: 7rem;
+    margin-bottom: 1rem
+}
+.body-h2 {
+    font-weight: 200;
+    font-size: 1.8rem;
+    margin-bottom: 2rem;
+    
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 90%;
+}
+
+.dest-img img {
+    height: 25rem;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 40vw;
+}
+
+.dest-btns {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+.dest-btns button {
+    background: none;
+    border: none;
+    color: white;
+    font-family: "Bellefair", serif;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 10px 20px;
+    opacity: 0.8;
+    transition: text-decoration 0.3s ease-in, transform 0.3s ease-in;
+}
+
+.dest-btns button:hover {
+    transition: ease-in 5S;
+    text-decoration: underline;
+}
+
+
+.heading {
+    font-size: 6rem;
+    margin-bottom: 2rem;
+}
+
+.dest-desc {
+    font-size: 1.4rem;
+    margin-bottom: 2rem;
+    opacity: 0.8;
+    text-align: left;
+    width: 85%;
+}
+
+.details {
+    display: flex;
+    gap: 5rem;
+    font-weight: 50;
+}
+
+.dest-dist p, .dest-time p {
+    font-size: 1.2rem;
+    font-family: "Bellefair", serif;
+    font-weight: 30;
+    opacity: 0.8;
+}
+
+.dest-dist h5, .dest-time h5 {
+    font-size: 1.5rem;
+    font-family: "Bellefair", serif;
+    font-weight: 50;
+}
+
+@media (max-width: 768px) {
+    .body-dest {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        height: 100vh;
+        background-image: url("../../assets/destination/background-destination-tablet.jpg");
+        background-size: cover;
+        color: beige;
+        font-family: 'Bellefair', serif;
+    }
+
+    .header {
+        display: flex;
+        justify-content: flex-start;
+        width: 100%;
+        padding-top: 8rem;
+        padding-left: 1rem;
+    }
+
+    .body-h2 {
+        font-weight: 200;
+        font-size: 1.2rem;
+        margin-bottom: 2rem;
+        
+    }
+
+    .content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        width: 100%;
+    }
+
+    .dest-img img {
+        height: 15rem;
+    }
+
+    .dest-img {
+        padding-bottom: 2rem;
+    }
+
+    .info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 63vw;
+    }
+
+    .dest-btns {
+        display: flex;
+        gap: 0.5rem;
+        margin-bottom: 1rem;
+    }
+
+    .dest-btns button {
+        background: none;
+        border: none;
+        color: white;
+        font-family: "Bellefair", serif;
+        font-size: 14px;
+        cursor: pointer;
+        padding: 5px 10px;
+        opacity: 0.8;
+        transition: text-decoration 0.3s ease-in, transform 0.3s ease-in;
+    }
+
+    .heading {
+        font-size: 5rem;
+        margin-bottom: 1rem;
+    }
+
+    .dest-desc {
+        font-size: 1rem;
+        margin-bottom: 1rem;
+        opacity: 0.8;
+        text-align: center;
+        width:  100%;
+    }
+
+    .dest-desc hr {
+        height: 1rem;
+        width: 100%;
+    }
+
+    .dest-dist p, .dest-time p {
+        font-size: 0.8rem;
+    }
+
+    .dest-dist h5, .dest-time h5 {
+        font-size: 1.3rem;
+        text-transform: uppercase;
+    }
+}
